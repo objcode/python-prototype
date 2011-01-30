@@ -1,4 +1,4 @@
-#Prototypical Inheritance for Python
+#Prototypal Inheritance for Python
 
 Implement javascript prototypal inheritance in python.  This
 implementation will allow you to create new prototypes on the fly, or
