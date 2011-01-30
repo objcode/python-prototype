@@ -18,7 +18,6 @@ class PrototypeSwitcher(object):
         old_getattr = cls.__getattr__ if '__getattr__' in cls.__dict__ else None
         delegate_bind = self._delegate #for speed
         def __getattr__(self, name):
-            
             if old_getattr:
                 try:
                     print "using old getattr"
