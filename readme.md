@@ -4,7 +4,7 @@ Implement javascript prototypal inheritance in python.  This
 implementation will allow you to create new prototypes on the fly, or
 set prototypes for classes.
 
-## Usage:
+## Usage
 
 You can use it to make lightweight children from an existing object.
 
@@ -21,7 +21,7 @@ You can use it to make static prototypes for classes.
 
     obj2 = Child()
 
-## Exlicit Generation
+## Explicit Generation
 
 In some rare cases you must explicitly force a clone or a decorator to
 be created.  If the object contains a `new` property you must
