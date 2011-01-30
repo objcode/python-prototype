@@ -20,7 +20,6 @@ class PrototypeSwitcher(object):
         def __getattr__(self, name):
             if old_getattr:
                 try:
-                    print "using old getattr"
                     return old_getattr(self, name)
                 except AttributeError:
                     pass
