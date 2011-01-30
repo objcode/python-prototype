@@ -1,5 +1,3 @@
-import new
-
 class PrototypeException(Exception):
     pass
 
