@@ -52,4 +52,4 @@ note, prototypes extending prototypes must use .new and extend=True.
     child = prototype(obj)
     grandchild = prototype(obj).new
 
-*(c) 2011 Sauce Labs, written by Sean McQuillan*
+*(c) 2011 Sauce Labs*
