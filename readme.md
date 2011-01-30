@@ -50,6 +50,6 @@ note, prototypes extending prototypes must use .new and extend=True.
 
     obj = Parent()
     child = prototype(obj)
-    grandchild = prototype(obj).new
+    grandchild = prototype(child).new
 
 *(c) 2011 Sauce Labs*

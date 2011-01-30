@@ -96,7 +96,7 @@ def prototype(delegate, extend=False):
 
     obj = Parent()
     child = prototype(obj)
-    grandchild = prototype(obj).new
+    grandchild = prototype(child).new
     """
     return PrototypeSwitcher(delegate, extend)
                 
