@@ -15,7 +15,7 @@ class PrototypeSwitcher(object):
         return delegator
 
     def _decorate(self, cls):
-        old_getattr = cls.__getattr__ if '__getattr__' in cls.__dict__ else None
+        old_getattr = getattr(cls, '__getattr__', None)
         delegate_bind = self._delegate #for speed
         def __getattr__(self, name):
             if old_getattr:
